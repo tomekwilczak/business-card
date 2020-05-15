@@ -1,0 +1,30 @@
+/* Generic - for all projects */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: inherit;
+  }
+
+body {
+    background: #2C2141;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    max-width: 624px;
+    margin: 0 auto;
+}
+
+.card {
+
+}
+
+.card__heading {
+    
+}
