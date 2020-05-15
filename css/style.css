@@ -1,60 +1,63 @@
 /* Generic - for all projects */
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:after,
-  *:before {
-    box-sizing: inherit;
-  }
+  box-sizing: margin-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
 
 body {
-    background: #2C2141;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
+  background: #2c2141;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
-    background-color: #F8F8F8;
-    border-radius: 16px;
-    max-width: 624px;
-    margin: 0 auto;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  max-width: 624px;
+  margin: 16px;
 }
 
 .card {
-    padding: 32px;
-    display: flex;
-    align-items: flex-start;
+  padding: 32px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .card__description {
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 22px;
-    margin-left: 32px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 22px;
+  margin-left: 32px;
 }
 
 .card__heading {
-    font-size: 32px;
-    margin: 0;
-    font-weight: normal;
-    margin-left: 32px;
+  font-size: 32px;
+  margin: 0;
+  font-weight: normal;
+  margin-left: 32px;
 }
 
 .card__position {
-    color: #545454;
-    font-size: 18px;
-    font-style: italic;
-    margin: 0;
-    margin-left: 32px;
+  color: #545454;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+  margin-left: 32px;
 }
 
 .external-link {
-    color: #E20613;
-    text-decoration: none;;
+  color: #e20613;
+  text-decoration: none;
 }
 
 .special {
-    color: #ED6D05;
+  color: #ed6d05;
 }
