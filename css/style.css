@@ -35,14 +35,19 @@ body {
   font-size: 16px;
   line-height: 22px;
   margin-top: 22px;
-  margin-left: 32px;
+  padding-left: 32px;
 }
 
 .card__heading {
   font-size: 32px;
   margin: 0;
   font-weight: normal;
-  margin-left: 32px;
+  padding-left: 32px;
+}
+.card__picture {
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
 }
 
 .card__position {
@@ -50,7 +55,7 @@ body {
   font-size: 18px;
   font-style: italic;
   margin: 0;
-  margin-left: 32px;
+  padding-left: 32px;
 }
 
 .external-link {
