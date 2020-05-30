@@ -45,9 +45,9 @@ body {
   padding-left: 32px;
 }
 .card__picture {
-  height: 148px;
-  width: 148px;
   border-radius: 50%;
+  display: block;
+  flex-shrink: 0;
 }
 
 .card__position {
